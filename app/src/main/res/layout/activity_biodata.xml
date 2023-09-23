@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BiodataActivity"
-    android:background="#f5ecff"
+    android:background="@color/white"
     >
 
     <LinearLayout
@@ -79,6 +79,7 @@
                         android:layout_height="wrap_content"
                         android:text="Ihwannudin Rahmadhani"
                         android:textSize="20dp"
+                        android:textStyle="bold"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -91,11 +92,11 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_avatar"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_alignParentEnd="true"
-                android:layout_marginEnd="24dp"/>
+                android:layout_marginEnd="24dp"
+                android:src="@drawable/ic_profile" />
         </RelativeLayout>
 
         <TextView
