@@ -3,4 +3,15 @@
     <string name="ihwannudin_rahmadhani">Ihwannudin Rahmadhani</string>
     <string name="_21_01_4638">21.01.4638</string>
     <string name="d3_teknik_informatika">D3 Teknik Informatika</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="form_identitas_mahasiswa">Form Identitas Mahasiswa</string>
+
+    <string-array name="kelas">
+        <item>-- Pilih --</item>
+        <item>P1</item>
+        <item>P2</item>
+    </string-array>
 </resources>
