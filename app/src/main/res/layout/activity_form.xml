@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_avatar"
-        android:layout_marginHorizontal="8dp"/>
+        android:layout_marginVertical="8dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,7 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="8dp">
+            android:layout_marginHorizontal="8dp">
+
             <EditText
                 android:id="@+id/etAlamat"
                 android:layout_width="match_parent"
@@ -59,16 +60,16 @@
                 android:hint="@string/password"
                 android:inputType="textPassword" />
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Jenis kelamin"
-                android:layout_marginVertical="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
             <RadioGroup
                 android:id="@+id/rbGender"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="4dp">
+                android:layout_height="wrap_content">
                 <RadioButton
                     android:id="@+id/rbLaki"
                     android:layout_width="wrap_content"
@@ -81,24 +82,25 @@
                     android:text="Perempuan"/>
             </RadioGroup>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Kelas"
-                android:layout_marginVertical="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
             <Spinner
                 android:id="@+id/spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/kelas"
-                android:layout_marginTop="4dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginVertical="4dp"
                 />
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Organisasi UKM"
-                android:layout_marginVertical="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
             <CheckBox
                 android:id="@+id/cbAMCC"
@@ -116,10 +118,11 @@
                 android:layout_height="wrap_content"
                 android:text="KOMA"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Other inputs"
-                android:layout_marginVertical="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
                 android:textSize="14sp"/>
             <ToggleButton
                 android:layout_width="wrap_content"
@@ -142,10 +145,10 @@
                 android:layout_marginVertical="4dp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Horizontal Scroll"
-                android:layout_marginVertical="8dp"
+                android:layout_marginVertical="4dp"
                 android:textSize="14sp"/>
             <HorizontalScrollView
                 android:layout_width="wrap_content"
