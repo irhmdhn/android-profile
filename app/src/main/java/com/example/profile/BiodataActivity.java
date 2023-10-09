@@ -2,6 +2,7 @@ package com.example.profile;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -36,7 +37,21 @@ public class BiodataActivity extends AppCompatActivity {
                     if(prodi.isEmpty()){
                         Toast.makeText(getApplication(),"Prodi harus di isi", Toast.LENGTH_SHORT).show();
                     }else {
+                        // by data
+//                        Intent i = new Intent(BiodataActivity.this, DataActivity.class);
+//                        i.putExtra("nama", nama);
+//                        i.putExtra("nim", nim);
+//                        i.putExtra("prodi", prodi);
+//                        startActivity(i);
 
+                        // by extras
+                        Bundle bundle = new Bundle();
+                        bundle.putString("nama",nama);
+                        bundle.putString("nim",nim);
+                        bundle.putString("prodi",prodi);
+                        Intent i = new Intent(BiodataActivity.this, DataActivity.class);
+                        i.putExtras(bundle);
+                        startActivity(i);
                     }
                 }catch (Exception e){
                     e.printStackTrace();
